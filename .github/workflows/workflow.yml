@@ -24,7 +24,8 @@ jobs:
       #with:
       #  inlineScript: |
        #    az cdn endpoint purge --content-paths  "/*" --profile-name "StaticSiteHostingProject" --name "staticsiteamc" --resource-group "StaticSiteHostingProjectRG"
-  # Azure logout
+  #
+       # Azure logout
     - name: logout
       run: |
             az logout
